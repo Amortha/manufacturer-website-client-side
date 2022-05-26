@@ -30,7 +30,9 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">Nora Bike</Link>
+                <Link to='/' className=" ">
+                <img className='w-28' src="https://www.banglamotor.net/images/logo/keeway_bikes_logo.jpg" alt='' />
+                </Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
