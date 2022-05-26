@@ -10,6 +10,7 @@ import ManageProducts from './pages/dashboard/ManageProducts';
 import MyOrders from './pages/dashboard/MyOrders';
 import MyProfile from './pages/dashboard/MyProfile';
 import Home from './pages/Home/Home';
+import Profile from './pages/Profile/Profile';
 import Purchase from './pages/Purchase/Purchase';
 import Login from './shared/Login';
 import Navbar from './shared/Navbar';
@@ -36,10 +37,13 @@ function App() {
           <Route path='add-product' element={<AddProduct/>}/>
           <Route path='make-admin' element={<MakeAdmin/>}/>
           <Route path='manage-product' element={<ManageProducts/>}/>
+     
+
         </Route>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='profile' element={<Profile/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </div>

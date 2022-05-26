@@ -6,7 +6,7 @@ const MyProfile = () => {
     const [user ] = useAuthState(auth);
     return (
         <div className='flex items-center justify-center h-screen'>
-            <h2 className='text-5xl text-primary'>This is my Propile</h2>
+            <h2 className='text-5xl text-primary'>Pending My Profile</h2>
 
         </div>
     );
