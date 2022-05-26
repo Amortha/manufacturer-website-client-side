@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const Bastsalings = (props) => {
-    const {  name, image, } = props.product;
+    const {  name, image, } = props.bastsaling;
     return (
         <div className="col">
             <div className="card product-style">
