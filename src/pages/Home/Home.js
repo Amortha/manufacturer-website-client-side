@@ -7,6 +7,7 @@ import Parts from './Parts';
 import Review from './Review';
 
 const Home = () => {
+    
     return (
         <div>
             <Banner/>
