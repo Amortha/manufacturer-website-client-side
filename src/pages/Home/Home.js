@@ -1,6 +1,5 @@
 import React from 'react';
 import Banner from './Banner';
-import Bestsaling from './Bestsaling';
 import Business from './Business';
 import Contuct from './Contuct';
 import Footer from './Footer';
@@ -13,7 +12,6 @@ const Home = () => {
             <Banner/>
             <Parts/>
             <Business/>
-            <Bestsaling></Bestsaling>
             <Review/>
             <Contuct/>
             <Footer/>
